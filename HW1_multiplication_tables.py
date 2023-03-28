@@ -1,4 +1,7 @@
-num = int(input("출력할 구구단의 단을 입력하세요: "))
+num = int(input("input a number for generating multiplication tables: "))
 
 for i in range(1, 10):
-    print(num, "x", i, "=", num*i)
+    print(num, '*', i, '=', num*i)
+
+for j in range(10,20):
+    print(num, '*', j, '=', num*j)
